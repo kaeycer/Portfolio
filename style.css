@@ -22,7 +22,6 @@ body{
     background: #fff;
     height: 15vh;
     padding: 20px;
-    font-size: x-large;
     align-items: center;
     box-shadow: 3px 3px 15px 4px rgba(0,0,0,0.4);
 }
@@ -44,6 +43,7 @@ a{
     align-items: center;
     text-align: center;
     text-shadow: 0.2rem 0.2rem rgba(0,0,0,0.3);
+    font-size: larger;
 }
 
 .navList{
