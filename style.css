@@ -19,6 +19,7 @@ body{
 .headContainer{
     display: flex;
     flex-direction: row;
+    justify-content: space-evenly;
     background: #fff;
     height: 15vh;
     padding: 20px;
@@ -105,7 +106,8 @@ a{
 
 #about{
     display: grid;
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    align-items: center;
     background-color: hwb(0 80% 20%);
     border-radius: 15px;
     padding: 0.4rem;
@@ -172,13 +174,17 @@ h2{
 }
 
 .profileImageContainer{
-    display: flex;
-    justify-content: center;
+    background-image: url(./images/Untitled\ design\ \(1\)\ \(1\).png);
+    background-repeat: no-repeat;
+    width: 128px;
+    height: 124px;
+    background-size: cover;
+    border-radius: 50%;
 }
 
-#profileImage{
-    background-image: url("./images/Untitled\ design\ \(1\)\ \(1\).png");
-    background-repeat: no-repeat;
+.upper{
+    display: flex;
+    justify-content: center;
 }
 
 
@@ -269,9 +275,8 @@ button:hover{
     justify-content: right;
 }
 
-.headContainer footer{
+footer{
     font-size: large;
-    text-align: center;
 }
 
 #card-1{
@@ -326,6 +331,12 @@ button:hover{
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: space-around;
+    }
+}
+/* For Desktops */
+@media(min-width: 800px){
+    .navList li:last-child{
+        display: none; 
     }
 }
 
