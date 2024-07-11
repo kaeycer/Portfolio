@@ -174,12 +174,13 @@ h2{
 }
 
 .profileImageContainer{
-    background-image: url(./images/Untitled\ design\ \(1\)\ \(1\).png);
+    background-image: url(./images/Profile.jpg);
     background-repeat: no-repeat;
     width: 128px;
     height: 124px;
     background-size: cover;
     border-radius: 50%;
+    border: dashed rgb(184, 179, 173) 2px;
 }
 
 .upper{
